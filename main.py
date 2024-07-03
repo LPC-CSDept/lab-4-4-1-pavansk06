@@ -4,7 +4,12 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    intval = int(input("Enter a value:"))
+    while 0 >= intval or intval >= 100:
+        intval = int(input("Enter a value:"))
+        
+    number = intval
+        
     print(number)
 
     ########################################
